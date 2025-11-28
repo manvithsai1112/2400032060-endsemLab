@@ -1,0 +1,38 @@
+css:-
+/* Container */
+div {
+  font-family: Arial, sans-serif;
+}
+
+/* Event cards */
+div > div {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+div > div:hover {
+  background-color: #f5f5f5;
+}
+
+/* Modal */
+div > div > h3 {
+  margin-top: 0;
+}
+
+button {
+  margin-top: 12px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
